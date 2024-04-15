@@ -1,5 +1,5 @@
-# Understanding the Basics of HTML Project
+# Understanding the Basics of Web development Project
 
 ## Description
 
-This project aims to understand the basics of HTML. The structure of an HTML page and much more.
+This project aims to understand the basics of HTML & CSS. The structure of an HTML page and CSS file and much more.
