@@ -94,3 +94,21 @@ header a {
     display: flex;
     justify-content: space-evenly;
 }
+
+#Pros-container div {
+    font-family: var(--font-source);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#Pros-container div h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#Pros-container div p {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.7;
+    max-width: 160px;
+}
