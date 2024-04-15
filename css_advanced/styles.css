@@ -76,7 +76,7 @@ header a {
     cursor: pointer;
 }
 
-#Pros-container h2 {
+#Banner h2 {
     font-family: var(--font-source);
     color: var(--third-color);
     position: absolute;
@@ -87,7 +87,7 @@ header a {
     color: var(--primary-color);
 }
 
-#Pros {
+#Pros-container {
     position: absolute;
     bottom: 35%;
     width: 100%;
