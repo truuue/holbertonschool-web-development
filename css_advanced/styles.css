@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #C271FF;
+    --third-color: #000000;
+    --fourth-color: #071629;
+    --font-source: 'source-sans-pro', sans-serif;
+    --font-spin: 'Spin-Cycle-OT', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: var(--font-source);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 200;
+    font-size: 12px;
+    padding: 1rem 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+header a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#Banner {
+    background-image: url("images/background.png");
+    width: 1440px;
+    height: 1093px;
+    background-size: cover;
+}
+
+#Banner-info {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+}
+
+#Banner-info h1 {
+    font-family: var(--font-source);
+    color: var(--primary-color);
+    font-size: 120px;
+}
+
+#Banner-info p {
+    font-family: var(--font-source);
+    color: var(--primary-color);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#Banner-info button {
+    font-family: var(--font-source);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 13px 20px;
+    font-size: 14px;
+    margin-top: 40px;
+    border-radius: 22px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
