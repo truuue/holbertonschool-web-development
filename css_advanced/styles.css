@@ -45,7 +45,7 @@ header a {
 #Banner-info {
     position: absolute;
     top: 15%;
-    left: 25%;
+    width: 100%;
     text-align: center;
 }
 
@@ -74,4 +74,23 @@ header a {
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+}
+
+#Pros-container h2 {
+    font-family: var(--font-source);
+    color: var(--third-color);
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    top: 40%;
+    color: var(--primary-color);
+}
+
+#Pros {
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
