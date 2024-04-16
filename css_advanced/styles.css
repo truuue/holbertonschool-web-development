@@ -267,6 +267,12 @@ header a {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color); /* retirer debug */
+    margin: 0 1rem;
     width: 255px;
     height: 335px;
 }
