@@ -20,7 +20,6 @@ body {
     width: 100%;
     max-width: 1440px;
     margin: auto;
-    overflow: hidden;
 }
 
 section {
@@ -73,13 +72,14 @@ header a {
     font-family: var(--font-source);
     color: var(--primary-color);
     font-size: 16px;
+    font-stretch: condensed;
     text-transform: uppercase;
 }
 
 #p-container {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 60px;
 }
 
 #p-shadow {
@@ -98,6 +98,8 @@ header a {
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+    font-weight: lighter;
+    font-stretch: condensed;
 }
 
 #Banner h2 {
@@ -107,9 +109,18 @@ header a {
     text-align: center;
     font-size: 32px;
     width: 100%;
-    top: 40%;
+    top: 43%;
     max-width: 1440px;
     color: var(--primary-color);
+    font-weight: 100;
+    font-stretch: ultra-condensed;
+}
+
+#Banner h2 span {
+    font-family: var(--font-spin);
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-stretch: normal;
 }
 
 #Banner-container {
@@ -123,7 +134,7 @@ header a {
 #Pros-container {
     position: absolute;
     max-width: 1009px;
-    bottom: 35%;
+    bottom: 33%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -215,6 +226,49 @@ header a {
     font-size: 22px;
     font-style: italic;
     font-weight: 300;
+}
+
+#Videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 624px;
+    background-color: #000000; /* retirer debug */
+}
+
+#Videos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1228px;
+    max-height: 450px;
+    margin: auto;
+    background-color: var(--fourth-color); /* retirer debug */
+}
+
+#Videos-container h1 {
+    font-family: var(--font-source);
+    font-size: 32px;
+    font-weight: lighter;
+    font-stretch: condensed;
+}
+
+#Videos-container span {
+    color: var(--secondary-color);
+    font-style: bold;
+    font-stretch: normal;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 255px;
+    height: 335px;
 }
 
 @media (max-width: 1440px) {
