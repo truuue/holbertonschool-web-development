@@ -35,7 +35,7 @@ header {
     align-items: center;
     font-weight: 200;
     font-size: 12px;
-    padding: 1rem 2rem;
+    padding: 2rem 6rem;
     position: absolute;
     width: 100%;
     z-index: 10;
@@ -45,6 +45,7 @@ header {
 header a {
     color: var(--primary-color);
     text-decoration: none;
+    margin: 0 2rem;
 }
 
 #Banner {
@@ -57,7 +58,7 @@ header a {
 
 #Banner-info {
     position: relative;
-    top: 15%;
+    top: 21%;
     width: 100%;
     text-align: center;
 }
