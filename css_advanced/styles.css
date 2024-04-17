@@ -234,7 +234,6 @@ header a {
     align-items: center;
     max-width: 1440px;
     height: 624px;
-    background-color: #000000; /* retirer debug */
 }
 
 #Videos-container {
@@ -245,7 +244,6 @@ header a {
     max-width: 1228px;
     max-height: 450px;
     margin: auto;
-    background-color: var(--fourth-color); /* retirer debug */
 }
 
 #Videos-container h1 {
@@ -253,11 +251,12 @@ header a {
     font-size: 32px;
     font-weight: lighter;
     font-stretch: condensed;
+    margin-bottom: 80px;
 }
 
 #Videos-container span {
     color: var(--secondary-color);
-    font-style: bold;
+    font-weight: bold;
     font-stretch: normal;
 }
 
@@ -271,10 +270,82 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--primary-color); /* retirer debug */
     margin: 0 1rem;
     width: 255px;
     height: 335px;
+}
+
+.card h2 {
+    font-family: var(--font-source);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.card p {
+    font-family: var(--font-source);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.videos-text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+
+.videos-text p {
+    line-height: 20px;
+}
+
+.previews {
+    width: 255px;
+    height: 154px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.avatar img {
+    margin: 10px 15px;
+}
+
+.avatar h3 {
+    margin-left: -5px;
+    font-family: var(--font-source);
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.rating p {
+    font-family: var(--font-source);
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 500;
+    margin-left: 10px;
 }
 
 @media (max-width: 1440px) {
