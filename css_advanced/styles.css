@@ -436,6 +436,59 @@ header a {
 
 }
 
+#FAQ {
+    background-color: var(--primary-color);
+    height: 858px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#FAQ h1 {
+    font-family: var(--font-source);
+    color: var(--fourth-color);
+    font-size: 60px;
+    font-weight: lighter;
+    font-stretch: ultra-condensed;
+    margin-top: 25px;
+    margin-bottom: -30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 920px;
+    height: 242px;
+    margin: 80px 0;
+}
+
+.row p {
+    font-family: var(--font-source);
+    color: var(--fourth-color);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 350px;
+    opacity: 0.5;
+}
+
+.row h2 {
+    font-family: var(--font-source);
+    color: var(--fourth-color);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.item {
+    width: 350px;
+    height: 192px;
+}
+
 @media (max-width: 1440px) {
     body, header, section {
         width: 100%;
